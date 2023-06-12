@@ -52,11 +52,16 @@ ggtitle("Fancy Box Plot")
 
 ```
 
-
+Lt High school would not overlap with junior College or Graduate, thus showing that it is very likely to be different schooling. In addition, graduate does not overlap with Highschool.Therefore, it also is likely to be different.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=thedata)
+```
+The average score
 
 ## Inferential Results
 
